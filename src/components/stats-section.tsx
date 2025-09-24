@@ -1,11 +1,9 @@
 "use client";
 
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 import AnimatedSection from "./AnimatedSection";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import PulsingElement from "./PulsingElement";
-import ContinuousFloating from "./ContinuousFloating";
 
 export default function StatsSection() {
   const stats = [
@@ -20,7 +18,7 @@ export default function StatsSection() {
         <AnimatedSection direction="up" delay={0.2}>
           <div className="text-center mb-16">
             <p className="text-gray-600 text-sm font-medium tracking-wide mb-8">
-              WE AREN'T JUST ABOUT CREATING, IT'S ABOUT MAKING A DIFFERENCE.
+              WE AREN&apos;T JUST ABOUT CREATING, IT&apos;S ABOUT MAKING A DIFFERENCE.
             </p>
           </div>
         </AnimatedSection>
